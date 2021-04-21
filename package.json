@@ -1,0 +1,29 @@
+{
+  "name": "jasoncrew-back-node-express-mongo",
+  "version": "1.0.0",
+  "description": "Back End part of the web app Jason Crew made with Nodejs Express and mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "webpack",
+    "start-server": "nodemon dist/main.js",
+    "watch": "webpack --watch"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "mongodb"
+  ],
+  "author": "Benjamin Dexant",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.5"
+  },
+  "engines": {
+    "node": "15.x",
+    "npm": "7.6.3"
+  }
+}
